@@ -1,82 +1,161 @@
-body{
-    background-color: white;
-}
-.header{
-    margin-left: 450px;
-    
-}
-.logo img{
-    margin-left: 300px;
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-}
+@media screen and (min-width:431px)
+{ 
+    body{
+        background-color: white;
+    }
+    .header{
+        margin-left: 450px;
+        
+    }
+    .logo img{
+        margin-left: 300px;
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+    }
 
-.titulo{
+    .titulo{
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-right: 450px;
+        font-size: 40px;
+
+    }
+    header nav{
+        display: inline;
+    }
+
+    .caja{
+        background-color: lightskyblue;
+        color: white;
+        padding: 10px;
+        width: 80px;
+        height: 10px;
+        border-radius: 15px;
+        border: 1px solid white;
+    }
+    section > div{
+        margin-top: 200px;
+        margin-left: 410px;
+        float: left;
+        font-family: "Winky Rough", sans-serif;
+        font-size: xx-large;
+        width: 500px;
+        height: 285px;
+    }
+    div h1{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    div h4{
+        font-size: small;    
+        color: rgb(161, 161, 161);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    div a{
+        font-size: medium;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    nav a{
+        color: rgb(161, 161, 161);
+        margin-right: 50px;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .persona{
+        height: 100px;
+        width: 100px;
+    }
+
+    .caja_imagen{
+        float: right;
+        width: 500px;
+        height: 285px;
+        margin-top: 125px;
+        margin-right: 400px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .caja_imagen img{
+        width: 550px;
+        height: 500px;
+    }
+}
+@media screen and (max-width:430px) {
+    
+    .header{
+        margin-left: 0;
+    } 
+    .logo img{
+    width: 7%;
+    height: 7%;
+    display: inline-block;
+    }
+    .titulo{
     display: inline-block;
     margin-bottom: 10px;
-    margin-right: 450px;
-    font-size: 40px;
-
-}
-header nav{
+    font-size: 30px;
+    }
+    header nav{
     display: inline;
-}
+    margin-top: 5px;
+    }
+    .caja{
+        background-color: lightskyblue;
+        color: white;
+        padding: 10px;
+        width: 7%;
+        height: 2%;
+        border-radius: 15px;
+        border: 1px solid white;
+        font-size: 9px;
+    }
+    section > div{
+        margin-top: 50px;
+        margin-left: 10px;
+        float: left;
+        font-family: "Winky Rough", sans-serif;
+        font-size: xx-large;
+        width: 500px;
+        height: 285px;
+    }
+    div h1{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 100%;
+    }
+    div h4{
+        font-size: 30%;    
+        color: rgb(161, 161, 161);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    div a{
+        font-size: 110%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
 
-.caja{
-    background-color: lightskyblue;
-    color: white;
-    padding: 10px;
-    width: 80px;
-    height: 10px;
-    border-radius: 15px;
-    border: 1px solid white;
-}
-section > div{
-    margin-top: 200px;
-    margin-left: 410px;
-    float: left;
-    font-family: "Winky Rough", sans-serif;
-    font-size: xx-large;
-    width: 500px;
-    height: 285px;
-}
-div h1{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-div h4{
-    font-size: small;    
-    color: rgb(161, 161, 161);
-    font-family: Arial, Helvetica, sans-serif;
-}
-div a{
-    font-size: medium;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    }
+    nav a{
+        color: rgb(161, 161, 161);
+        margin-right: 10px;
+        font-size: 90%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .persona{
+        height: 100%;
+        width: 10%;
+        margin-right: 0px;
+    }
 
-}
-nav a{
-    color: rgb(161, 161, 161);
-    margin-right: 50px;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.persona{
-    height: 100px;
-    width: 100px;
-}
-
-.caja_imagen{
-    float: right;
-    width: 500px;
-    height: 285px;
-    margin-top: 125px;
-    margin-right: 400px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-}
-.caja_imagen img{
-    width: 550px;
-    height: 500px;
+    .caja_imagen{
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+    }
+    .caja_imagen img{
+        width: 100%;
+        height: 40%;
+    }
 }
